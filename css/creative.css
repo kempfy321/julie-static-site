@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Berkshire Swash', cursive , 'Open Sans', sans-serif; }
 
 hr {
   max-width: 50px;
@@ -27,12 +27,21 @@ a {
   a:hover {
     color: #94CAE2; }
 
+.first-letter {
+  font-size: 200%;
+}
+
+.front-page {
+  text-shadow: 2px 2px #801515;
+}
+
 h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+h6,
+p {
+  font-family: 'Open Sans', sans-serif; }
 
 .bg-primary {
   background-color: #5B94AC !important; }
@@ -70,6 +79,7 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #212529; }
 
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -99,23 +109,23 @@ body {
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-        background-color: #5B94AC; }/*transparent*/
+        background-color: transparent; }/*transparent*/
   @media (min-width: 992px) {
     #mainNav {
       border-color: #5B94AC;/*transparent*/
-      background-color: #5B94AC; }/*transparent*/
+      background-color: #fff; }/*transparent*/
       #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 0.7); }
+        color: #5B94AC; }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: #fff; }
+          color: #212529; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link {
         padding: 0.5rem 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(255, 255, 255, 0.7); }
+        color: #212529; }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: #fff; }
+          color: #5B94AC; }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
         background-color: #fff; }
@@ -129,10 +139,9 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #5B94AC; } }
+ 
 
-
-
-header.masthead {
+header.masthead{
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
 
@@ -163,6 +172,7 @@ header.masthead {
   @media (min-width: 1200px) {
     header.masthead h1 {
       font-size: 4rem; } }
+
 
 .service-box {
   max-width: 400px; }
